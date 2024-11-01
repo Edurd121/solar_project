@@ -76,7 +76,7 @@ def main():
     detector = DefectDetector()
     
     # Process test directory
-    test_dir = '/Users/eduardobourget/Documents/Masters/CAP5415/course_project/scripts/solar_panel_data/processed/test/images'
+    test_dir = r'C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\solar_panel_data\processed\test\images'
     output_dir = 'results'
     
     print("Processing test images...")

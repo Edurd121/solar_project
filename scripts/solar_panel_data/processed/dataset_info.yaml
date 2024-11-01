@@ -4,10 +4,10 @@ classes:
 test_size: 525
 train_size: 1679
 val_size: 420
-path: /Users/eduardobourget/Documents/Masters/CAP5415/course_project/scripts/solar_panel_data/processed
-train: /Users/eduardobourget/Documents/Masters/CAP5415/course_project/scripts/solar_panel_data/processed/train/images
-val: /Users/eduardobourget/Documents/Masters/CAP5415/course_project/scripts/solar_panel_data/processed/val/images
-test: /Users/eduardobourget/Documents/Masters/CAP5415/course_project/scripts/solar_panel_data/processed/test/images
+path: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\solar_panel_data\processed
+train: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\solar_panel_data\processed/train/images
+val: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\solar_panel_data\processed/val/images
+test: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\solar_panel_data\processed/test/images
 names:
   0: no_defect
   1: defect

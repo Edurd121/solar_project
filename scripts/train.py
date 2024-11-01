@@ -38,7 +38,7 @@ def train_model(data_yaml_path, epochs=100, batch_size=16, img_size=640):
 
 def main():
     # Setup paths
-    data_yaml_path = Path('/Users/eduardobourget/Documents/Masters/CAP5415/course_project/scripts/solar_panel_data/processed/dataset_info.yaml')
+    data_yaml_path = Path(r'C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\solar_panel_data\processed\dataset_info.yaml')
     
     # Ensure CUDA is available
     print(f"CUDA available: {torch.cuda.is_available()}")

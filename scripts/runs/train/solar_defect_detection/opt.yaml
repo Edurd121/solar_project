@@ -1,6 +1,6 @@
 weights: yolov5s.pt
 cfg: ''
-data: /Users/eduardobourget/Documents/Masters/CAP5415/course_project/scripts/solar_panel_data/processed/dataset_info.yaml
+data: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\solar_panel_data\processed\dataset_info.yaml
 hyp:
   lr0: 0.01
   lrf: 0.01
@@ -40,7 +40,7 @@ noval: false
 noautoanchor: false
 noplots: false
 evolve: null
-evolve_population: data/hyps
+evolve_population: data\hyps
 resume_evolve: null
 bucket: ''
 cache: null
@@ -69,4 +69,4 @@ bbox_interval: -1
 artifact_alias: latest
 ndjson_console: false
 ndjson_file: false
-save_dir: ../runs/train/solar_defect_detection
+save_dir: ..\runs\train\solar_defect_detection
