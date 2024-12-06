@@ -1,0 +1,39 @@
+2024-12-05 16:36:05,044 - INFO - 
+Starting experiment:
+2024-12-05 16:36:05,045 - INFO - Dataset: original_solar
+2024-12-05 16:36:05,045 - INFO - Model: RT-DETR-l
+2024-12-05 16:36:05,045 - INFO - Batch size: 8
+2024-12-05 16:36:05,045 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\rt_detr\runs\original_solar\rtdetr_l_batch8_epoch100_20241205_163605
+2024-12-05 16:36:10,116 - INFO - Starting training with RT-DETR-l
+2024-12-05 16:42:26,796 - INFO - 
+Starting experiment:
+2024-12-05 16:42:26,797 - INFO - Dataset: original_solar
+2024-12-05 16:42:26,797 - INFO - Model: RT-DETR-n
+2024-12-05 16:42:26,797 - INFO - Batch size: 32
+2024-12-05 16:42:26,798 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\rt_detr\runs\original_solar\rtdetr_n_batch32_epoch100_20241205_164226
+2024-12-05 16:42:27,081 - ERROR - Error during training: [Errno 2] No such file or directory: 'rtdetr-n.pt'
+2024-12-05 16:42:27,081 - ERROR - Experiment failed: [Errno 2] No such file or directory: 'rtdetr-n.pt'
+2024-12-05 16:42:27,081 - INFO - 
+Starting experiment:
+2024-12-05 16:42:27,081 - INFO - Dataset: original_solar
+2024-12-05 16:42:27,081 - INFO - Model: RT-DETR-s
+2024-12-05 16:42:27,082 - INFO - Batch size: 16
+2024-12-05 16:42:27,083 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\rt_detr\runs\original_solar\rtdetr_s_batch16_epoch100_20241205_164227
+2024-12-05 16:42:27,241 - ERROR - Error during training: [Errno 2] No such file or directory: 'rtdetr-s.pt'
+2024-12-05 16:42:27,241 - ERROR - Experiment failed: [Errno 2] No such file or directory: 'rtdetr-s.pt'
+2024-12-05 16:42:27,241 - INFO - 
+Starting experiment:
+2024-12-05 16:42:27,241 - INFO - Dataset: combined_solar
+2024-12-05 16:42:27,241 - INFO - Model: RT-DETR-n
+2024-12-05 16:42:27,242 - INFO - Batch size: 32
+2024-12-05 16:42:27,242 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\rt_detr\runs\combined_solar\rtdetr_n_batch32_epoch100_20241205_164227
+2024-12-05 16:42:27,386 - ERROR - Error during training: [Errno 2] No such file or directory: 'rtdetr-n.pt'
+2024-12-05 16:42:27,387 - ERROR - Experiment failed: [Errno 2] No such file or directory: 'rtdetr-n.pt'
+2024-12-05 16:42:27,387 - INFO - 
+Starting experiment:
+2024-12-05 16:42:27,387 - INFO - Dataset: combined_solar
+2024-12-05 16:42:27,387 - INFO - Model: RT-DETR-s
+2024-12-05 16:42:27,387 - INFO - Batch size: 16
+2024-12-05 16:42:27,388 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\rt_detr\runs\combined_solar\rtdetr_s_batch16_epoch100_20241205_164227
+2024-12-05 16:42:27,530 - ERROR - Error during training: [Errno 2] No such file or directory: 'rtdetr-s.pt'
+2024-12-05 16:42:27,531 - ERROR - Experiment failed: [Errno 2] No such file or directory: 'rtdetr-s.pt'

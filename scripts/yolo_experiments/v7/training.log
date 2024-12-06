@@ -1,0 +1,243 @@
+2024-12-04 18:21:23,406 - INFO - Cloning YOLOv7 repository...
+2024-12-04 18:21:43,625 - INFO - Downloading yolov7-tiny.pt...
+2024-12-04 18:23:36,104 - INFO - 
+Starting experiment:
+2024-12-04 18:23:36,104 - INFO - Dataset: original_solar
+2024-12-04 18:23:36,105 - INFO - Model: YOLOv7n
+2024-12-04 18:23:36,105 - INFO - Batch size: 32
+2024-12-04 18:23:36,105 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_182336
+2024-12-04 18:23:36,106 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 32 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights weights/yolov7-tiny.pt --cfg cfg/training/yolov7-tiny.yaml --name yolov7n_batch32_epoch100_20241204_182336 --hyp data/hyp.scratch.p5.yaml
+2024-12-04 18:23:42,431 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_182336
+2024-12-04 18:23:42,432 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_182336
+2024-12-04 18:23:42,432 - INFO - 
+Starting experiment:
+2024-12-04 18:23:42,432 - INFO - Dataset: original_solar
+2024-12-04 18:23:42,432 - INFO - Model: YOLOv7s
+2024-12-04 18:23:42,432 - INFO - Batch size: 16
+2024-12-04 18:23:42,433 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_182342
+2024-12-04 18:23:42,434 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 16 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights weights/yolov7.pt --cfg cfg/training/yolov7.yaml --name yolov7s_batch16_epoch100_20241204_182342 --hyp data/hyp.scratch.p5.yaml
+2024-12-04 18:23:48,378 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_182342
+2024-12-04 18:23:48,378 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_182342
+2024-12-04 18:23:48,379 - INFO - 
+Starting experiment:
+2024-12-04 18:23:48,379 - INFO - Dataset: combined_solar
+2024-12-04 18:23:48,379 - INFO - Model: YOLOv7n
+2024-12-04 18:23:48,379 - INFO - Batch size: 32
+2024-12-04 18:23:48,380 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\combined_solar\yolov7n_batch32_epoch100_20241204_182348
+2024-12-04 18:23:48,381 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 32 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\combined_solar_dataset\dataset_info.yaml --weights weights/yolov7-tiny.pt --cfg cfg/training/yolov7-tiny.yaml --name yolov7n_batch32_epoch100_20241204_182348 --hyp data/hyp.scratch.p5.yaml
+2024-12-04 18:30:12,545 - INFO - 
+Starting experiment:
+2024-12-04 18:30:12,545 - INFO - Dataset: original_solar
+2024-12-04 18:30:12,545 - INFO - Model: YOLOv7n
+2024-12-04 18:30:12,546 - INFO - Batch size: 32
+2024-12-04 18:30:12,546 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183012
+2024-12-04 18:30:12,548 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 32 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7-tiny.pt --cfg cfg/training/yolov7-tiny.yaml --name yolov7n_batch32_epoch100_20241204_183012 --hyp data/hyp.scratch.p5.yaml
+2024-12-04 18:30:18,771 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183012
+2024-12-04 18:30:18,772 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183012
+2024-12-04 18:30:18,772 - INFO - 
+Starting experiment:
+2024-12-04 18:30:18,772 - INFO - Dataset: original_solar
+2024-12-04 18:30:18,772 - INFO - Model: YOLOv7s
+2024-12-04 18:30:18,772 - INFO - Batch size: 16
+2024-12-04 18:30:18,773 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_183018
+2024-12-04 18:30:18,774 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 16 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7.pt --cfg cfg/training/yolov7.yaml --name yolov7s_batch16_epoch100_20241204_183018 --hyp data/hyp.scratch.p5.yaml
+2024-12-04 18:32:54,959 - INFO - 
+Starting experiment:
+2024-12-04 18:32:54,959 - INFO - Dataset: original_solar
+2024-12-04 18:32:54,959 - INFO - Model: YOLOv7n
+2024-12-04 18:32:54,960 - INFO - Batch size: 32
+2024-12-04 18:32:54,960 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183254
+2024-12-04 18:32:54,960 - INFO - Downloading YOLOv7-n weights...
+2024-12-04 18:32:55,522 - ERROR - Error downloading weights: HTTP Error 404: Not Found
+2024-12-04 18:32:55,522 - ERROR - Error during training: HTTP Error 404: Not Found
+2024-12-04 18:32:55,522 - ERROR - Experiment failed: HTTP Error 404: Not Found
+2024-12-04 18:32:55,524 - INFO - 
+Starting experiment:
+2024-12-04 18:32:55,524 - INFO - Dataset: original_solar
+2024-12-04 18:32:55,524 - INFO - Model: YOLOv7s
+2024-12-04 18:32:55,525 - INFO - Batch size: 16
+2024-12-04 18:32:55,525 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_183255
+2024-12-04 18:32:55,525 - INFO - Downloading YOLOv7-s weights...
+2024-12-04 18:32:56,037 - ERROR - Error downloading weights: HTTP Error 404: Not Found
+2024-12-04 18:32:56,037 - ERROR - Error during training: HTTP Error 404: Not Found
+2024-12-04 18:32:56,038 - ERROR - Experiment failed: HTTP Error 404: Not Found
+2024-12-04 18:32:56,039 - INFO - 
+Starting experiment:
+2024-12-04 18:32:56,039 - INFO - Dataset: combined_solar
+2024-12-04 18:32:56,040 - INFO - Model: YOLOv7n
+2024-12-04 18:32:56,040 - INFO - Batch size: 32
+2024-12-04 18:32:56,040 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\combined_solar\yolov7n_batch32_epoch100_20241204_183256
+2024-12-04 18:32:56,041 - INFO - Downloading YOLOv7-n weights...
+2024-12-04 18:32:56,442 - ERROR - Error downloading weights: HTTP Error 404: Not Found
+2024-12-04 18:32:56,442 - ERROR - Error during training: HTTP Error 404: Not Found
+2024-12-04 18:32:56,443 - ERROR - Experiment failed: HTTP Error 404: Not Found
+2024-12-04 18:32:56,444 - INFO - 
+Starting experiment:
+2024-12-04 18:32:56,444 - INFO - Dataset: combined_solar
+2024-12-04 18:32:56,444 - INFO - Model: YOLOv7s
+2024-12-04 18:32:56,445 - INFO - Batch size: 16
+2024-12-04 18:32:56,445 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\combined_solar\yolov7s_batch16_epoch100_20241204_183256
+2024-12-04 18:32:56,445 - INFO - Downloading YOLOv7-s weights...
+2024-12-04 18:32:56,848 - ERROR - Error downloading weights: HTTP Error 404: Not Found
+2024-12-04 18:32:56,849 - ERROR - Error during training: HTTP Error 404: Not Found
+2024-12-04 18:32:56,849 - ERROR - Experiment failed: HTTP Error 404: Not Found
+2024-12-04 18:34:33,393 - INFO - 
+Starting experiment:
+2024-12-04 18:34:33,393 - INFO - Dataset: original_solar
+2024-12-04 18:34:33,393 - INFO - Model: YOLOv7n
+2024-12-04 18:34:33,393 - INFO - Batch size: 32
+2024-12-04 18:34:33,398 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183433
+2024-12-04 18:34:33,399 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 32 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7-tiny.pt --cfg cfg/training/yolov7-tiny.yaml --name yolov7n_batch32_epoch100_20241204_183433 --hyp data/hyp.scratch.p5.yaml --cache False
+2024-12-04 18:34:39,376 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183433
+2024-12-04 18:34:39,376 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183433
+2024-12-04 18:34:39,376 - INFO - 
+Starting experiment:
+2024-12-04 18:34:39,376 - INFO - Dataset: original_solar
+2024-12-04 18:34:39,377 - INFO - Model: YOLOv7s
+2024-12-04 18:34:39,377 - INFO - Batch size: 16
+2024-12-04 18:34:39,377 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_183439
+2024-12-04 18:34:39,379 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 16 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7.pt --cfg cfg/training/yolov7.yaml --name yolov7s_batch16_epoch100_20241204_183439 --hyp data/hyp.scratch.p5.yaml --cache False
+2024-12-04 18:35:15,862 - INFO - 
+Starting experiment:
+2024-12-04 18:35:15,862 - INFO - Dataset: original_solar
+2024-12-04 18:35:15,862 - INFO - Model: YOLOv7n
+2024-12-04 18:35:15,862 - INFO - Batch size: 32
+2024-12-04 18:35:15,863 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183515
+2024-12-04 18:35:15,864 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 32 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7-tiny.pt --cfg cfg/training/yolov7-tiny.yaml --name yolov7n_batch32_epoch100_20241204_183515 --hyp data/hyp.scratch.p5.yaml --cache False--exit-ok
+2024-12-04 18:35:24,772 - INFO - 
+Starting experiment:
+2024-12-04 18:35:24,773 - INFO - Dataset: original_solar
+2024-12-04 18:35:24,773 - INFO - Model: YOLOv7n
+2024-12-04 18:35:24,773 - INFO - Batch size: 32
+2024-12-04 18:35:24,774 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183524
+2024-12-04 18:35:24,775 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 32 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7-tiny.pt --cfg cfg/training/yolov7-tiny.yaml --name yolov7n_batch32_epoch100_20241204_183524 --hyp data/hyp.scratch.p5.yaml --cache False --exit-ok
+2024-12-04 18:35:30,535 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183524
+2024-12-04 18:35:30,536 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183524
+2024-12-04 18:35:30,536 - INFO - 
+Starting experiment:
+2024-12-04 18:35:30,536 - INFO - Dataset: original_solar
+2024-12-04 18:35:30,536 - INFO - Model: YOLOv7s
+2024-12-04 18:35:30,536 - INFO - Batch size: 16
+2024-12-04 18:35:30,537 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_183530
+2024-12-04 18:35:30,538 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 16 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7.pt --cfg cfg/training/yolov7.yaml --name yolov7s_batch16_epoch100_20241204_183530 --hyp data/hyp.scratch.p5.yaml --cache False --exit-ok
+2024-12-04 18:35:36,396 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_183530
+2024-12-04 18:35:36,397 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_183530
+2024-12-04 18:35:36,397 - INFO - 
+Starting experiment:
+2024-12-04 18:35:36,397 - INFO - Dataset: combined_solar
+2024-12-04 18:35:36,397 - INFO - Model: YOLOv7n
+2024-12-04 18:35:36,397 - INFO - Batch size: 32
+2024-12-04 18:35:36,402 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\combined_solar\yolov7n_batch32_epoch100_20241204_183536
+2024-12-04 18:35:36,403 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 32 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\combined_solar_dataset\dataset_info_v7.yaml --weights weights/yolov7-tiny.pt --cfg cfg/training/yolov7-tiny.yaml --name yolov7n_batch32_epoch100_20241204_183536 --hyp data/hyp.scratch.p5.yaml --cache False --exit-ok
+2024-12-04 18:36:47,315 - INFO - 
+Starting experiment:
+2024-12-04 18:36:47,316 - INFO - Dataset: original_solar
+2024-12-04 18:36:47,316 - INFO - Model: YOLOv7n
+2024-12-04 18:36:47,316 - INFO - Batch size: 32
+2024-12-04 18:36:47,317 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183647
+2024-12-04 18:36:47,323 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 32 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7-tiny.pt --cfg cfg/training/yolov7-tiny.yaml --name yolov7n_batch32_epoch100_20241204_183647 --hyp data/hyp.scratch.p5.yaml --cache-images --exist-ok --no-wandb
+2024-12-04 18:36:53,036 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183647
+2024-12-04 18:36:53,036 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183647
+2024-12-04 18:36:53,037 - INFO - 
+Starting experiment:
+2024-12-04 18:36:53,037 - INFO - Dataset: original_solar
+2024-12-04 18:36:53,037 - INFO - Model: YOLOv7s
+2024-12-04 18:36:53,037 - INFO - Batch size: 16
+2024-12-04 18:36:53,037 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_183653
+2024-12-04 18:36:53,039 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 16 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7.pt --cfg cfg/training/yolov7.yaml --name yolov7s_batch16_epoch100_20241204_183653 --hyp data/hyp.scratch.p5.yaml --cache-images --exist-ok --no-wandb
+2024-12-04 18:37:03,077 - INFO - 
+Starting experiment:
+2024-12-04 18:37:03,078 - INFO - Dataset: original_solar
+2024-12-04 18:37:03,078 - INFO - Model: YOLOv7n
+2024-12-04 18:37:03,078 - INFO - Batch size: 32
+2024-12-04 18:37:03,078 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183703
+2024-12-04 18:37:03,084 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 32 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7-tiny.pt --cfg cfg/training/yolov7-tiny.yaml --name yolov7n_batch32_epoch100_20241204_183703 --hyp data/hyp.scratch.p5.yaml --cache-images --exist-ok
+2024-12-04 18:38:58,401 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183703
+2024-12-04 18:38:58,401 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_183703
+2024-12-04 18:38:58,401 - INFO - 
+Starting experiment:
+2024-12-04 18:38:58,401 - INFO - Dataset: original_solar
+2024-12-04 18:38:58,401 - INFO - Model: YOLOv7s
+2024-12-04 18:38:58,401 - INFO - Batch size: 16
+2024-12-04 18:38:58,402 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_183858
+2024-12-04 18:38:58,403 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 16 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7.pt --cfg cfg/training/yolov7.yaml --name yolov7s_batch16_epoch100_20241204_183858 --hyp data/hyp.scratch.p5.yaml --cache-images --exist-ok
+2024-12-04 18:41:09,436 - INFO - 
+Starting experiment:
+2024-12-04 18:41:09,436 - INFO - Dataset: original_solar
+2024-12-04 18:41:09,437 - INFO - Model: YOLOv7n
+2024-12-04 18:41:09,437 - INFO - Batch size: 32
+2024-12-04 18:41:09,437 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_184109
+2024-12-04 18:41:09,439 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 32 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7-tiny.pt --cfg cfg/training/yolov7-tiny.yaml --name yolov7n_batch32_epoch100_20241204_184109 --hyp data/hyp.scratch.p5.yaml --cache ram --exist-ok
+2024-12-04 18:41:15,591 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_184109
+2024-12-04 18:41:15,592 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_184109
+2024-12-04 18:41:15,592 - INFO - 
+Starting experiment:
+2024-12-04 18:41:15,592 - INFO - Dataset: original_solar
+2024-12-04 18:41:15,592 - INFO - Model: YOLOv7s
+2024-12-04 18:41:15,592 - INFO - Batch size: 16
+2024-12-04 18:41:15,593 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_184115
+2024-12-04 18:41:15,594 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 16 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7.pt --cfg cfg/training/yolov7.yaml --name yolov7s_batch16_epoch100_20241204_184115 --hyp data/hyp.scratch.p5.yaml --cache ram --exist-ok
+2024-12-04 18:42:26,030 - INFO - 
+Starting experiment:
+2024-12-04 18:42:26,030 - INFO - Dataset: original_solar
+2024-12-04 18:42:26,030 - INFO - Model: YOLOv7n
+2024-12-04 18:42:26,030 - INFO - Batch size: 32
+2024-12-04 18:42:26,031 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_184226
+2024-12-04 18:42:26,032 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 32 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7-tiny.pt --cfg cfg/training/yolov7-tiny.yaml --name yolov7n_batch32_epoch100_20241204_184226 --hyp data/hyp.scratch.p5.yaml --exist-ok
+2024-12-04 18:42:35,312 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_184226
+2024-12-04 18:42:35,312 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_184226
+2024-12-04 18:42:35,312 - INFO - 
+Starting experiment:
+2024-12-04 18:42:35,313 - INFO - Dataset: original_solar
+2024-12-04 18:42:35,313 - INFO - Model: YOLOv7s
+2024-12-04 18:42:35,313 - INFO - Batch size: 16
+2024-12-04 18:42:35,313 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_184235
+2024-12-04 18:42:35,315 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 16 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7.pt --cfg cfg/training/yolov7.yaml --name yolov7s_batch16_epoch100_20241204_184235 --hyp data/hyp.scratch.p5.yaml --exist-ok
+2024-12-04 18:43:24,232 - INFO - 
+Starting experiment:
+2024-12-04 18:43:24,233 - INFO - Dataset: original_solar
+2024-12-04 18:43:24,233 - INFO - Model: YOLOv7n
+2024-12-04 18:43:24,233 - INFO - Batch size: 32
+2024-12-04 18:43:24,233 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_184324
+2024-12-04 18:43:24,234 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 32 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7-tiny.pt --cfg cfg/training/yolov7-tiny.yaml --name yolov7n_batch32_epoch100_20241204_184324 --hyp data/hyp.scratch.p5.yaml --exist-ok
+2024-12-04 18:43:32,989 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_184324
+2024-12-04 18:43:32,990 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_184324
+2024-12-04 18:43:32,990 - INFO - 
+Starting experiment:
+2024-12-04 18:43:32,990 - INFO - Dataset: original_solar
+2024-12-04 18:43:32,990 - INFO - Model: YOLOv7s
+2024-12-04 18:43:32,990 - INFO - Batch size: 16
+2024-12-04 18:43:32,991 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_184332
+2024-12-04 18:43:32,992 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 16 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7.pt --cfg cfg/training/yolov7.yaml --name yolov7s_batch16_epoch100_20241204_184332 --hyp data/hyp.scratch.p5.yaml --exist-ok
+2024-12-04 18:45:19,854 - INFO - 
+Starting experiment:
+2024-12-04 18:45:19,854 - INFO - Dataset: original_solar
+2024-12-04 18:45:19,854 - INFO - Model: YOLOv7n
+2024-12-04 18:45:19,855 - INFO - Batch size: 32
+2024-12-04 18:45:19,855 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_184519
+2024-12-04 18:45:19,857 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 32 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7-tiny.pt --cfg cfg/training/yolov7-tiny.yaml --name yolov7n_batch32_epoch100_20241204_184519 --hyp data/hyp.scratch.p5.yaml --exist-ok
+2024-12-04 18:51:54,641 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_184519
+2024-12-04 18:51:54,641 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_184519
+2024-12-04 18:51:54,642 - INFO - 
+Starting experiment:
+2024-12-04 18:51:54,642 - INFO - Dataset: original_solar
+2024-12-04 18:51:54,642 - INFO - Model: YOLOv7s
+2024-12-04 18:51:54,642 - INFO - Batch size: 16
+2024-12-04 18:51:54,643 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_185154
+2024-12-04 18:51:54,644 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 16 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7.pt --cfg cfg/training/yolov7.yaml --name yolov7s_batch16_epoch100_20241204_185154 --hyp data/hyp.scratch.p5.yaml --exist-ok
+2024-12-04 18:56:05,968 - INFO - 
+Starting experiment:
+2024-12-04 18:56:05,968 - INFO - Dataset: original_solar
+2024-12-04 18:56:05,968 - INFO - Model: YOLOv7n
+2024-12-04 18:56:05,968 - INFO - Batch size: 32
+2024-12-04 18:56:05,969 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_185605
+2024-12-04 18:56:05,970 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 32 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7-tiny.pt --cfg cfg/training/yolov7-tiny.yaml --name yolov7n_batch32_epoch100_20241204_185605 --hyp data/hyp.scratch.p5.yaml --exist-ok
+2024-12-04 19:02:29,510 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_185605
+2024-12-04 19:02:29,510 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7n_batch32_epoch100_20241204_185605
+2024-12-04 19:02:29,510 - INFO - 
+Starting experiment:
+2024-12-04 19:02:29,510 - INFO - Dataset: original_solar
+2024-12-04 19:02:29,511 - INFO - Model: YOLOv7s
+2024-12-04 19:02:29,511 - INFO - Batch size: 16
+2024-12-04 19:02:29,511 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_190229
+2024-12-04 19:02:29,513 - INFO - Starting training with command: python train.py --workers 8 --device 0 --batch-size 16 --epochs 100 --img 640 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml --weights weights/yolov7.pt --cfg cfg/training/yolov7.yaml --name yolov7s_batch16_epoch100_20241204_190229 --hyp data/hyp.scratch.p5.yaml --exist-ok

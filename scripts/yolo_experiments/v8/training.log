@@ -1,0 +1,36 @@
+2024-12-04 19:03:42,412 - INFO - 
+Starting experiment:
+2024-12-04 19:03:42,413 - INFO - Dataset: original_solar
+2024-12-04 19:03:42,413 - INFO - Model: YOLOv8n
+2024-12-04 19:03:42,413 - INFO - Batch size: 32
+2024-12-04 19:03:42,413 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v8\runs\original_solar\yolov8n_batch32_epoch100_20241204_190342
+2024-12-04 19:03:44,304 - INFO - Starting training with YOLOv8n
+2024-12-04 19:25:35,800 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v8\runs\original_solar\yolov8n_batch32_epoch100_20241204_190342
+2024-12-04 19:25:36,009 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v8\runs\original_solar\yolov8n_batch32_epoch100_20241204_190342
+2024-12-04 19:25:36,013 - INFO - 
+Starting experiment:
+2024-12-04 19:25:36,014 - INFO - Dataset: original_solar
+2024-12-04 19:25:36,014 - INFO - Model: YOLOv8s
+2024-12-04 19:25:36,014 - INFO - Batch size: 16
+2024-12-04 19:25:36,015 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v8\runs\original_solar\yolov8s_batch16_epoch100_20241204_192536
+2024-12-04 19:25:39,116 - INFO - Starting training with YOLOv8s
+2024-12-04 20:03:29,096 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v8\runs\original_solar\yolov8s_batch16_epoch100_20241204_192536
+2024-12-04 20:03:29,108 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v8\runs\original_solar\yolov8s_batch16_epoch100_20241204_192536
+2024-12-04 20:03:29,109 - INFO - 
+Starting experiment:
+2024-12-04 20:03:29,109 - INFO - Dataset: combined_solar
+2024-12-04 20:03:29,109 - INFO - Model: YOLOv8n
+2024-12-04 20:03:29,109 - INFO - Batch size: 32
+2024-12-04 20:03:29,110 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v8\runs\combined_solar\yolov8n_batch32_epoch100_20241204_200329
+2024-12-04 20:03:29,204 - INFO - Starting training with YOLOv8n
+2024-12-04 20:48:54,668 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v8\runs\combined_solar\yolov8n_batch32_epoch100_20241204_200329
+2024-12-04 20:48:55,221 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v8\runs\combined_solar\yolov8n_batch32_epoch100_20241204_200329
+2024-12-04 20:48:55,222 - INFO - 
+Starting experiment:
+2024-12-04 20:48:55,222 - INFO - Dataset: combined_solar
+2024-12-04 20:48:55,222 - INFO - Model: YOLOv8s
+2024-12-04 20:48:55,222 - INFO - Batch size: 16
+2024-12-04 20:48:55,246 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v8\runs\combined_solar\yolov8s_batch16_epoch100_20241204_204855
+2024-12-04 20:48:56,731 - INFO - Starting training with YOLOv8s
+2024-12-04 22:40:59,922 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v8\runs\combined_solar\yolov8s_batch16_epoch100_20241204_204855
+2024-12-04 22:41:00,536 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v8\runs\combined_solar\yolov8s_batch16_epoch100_20241204_204855

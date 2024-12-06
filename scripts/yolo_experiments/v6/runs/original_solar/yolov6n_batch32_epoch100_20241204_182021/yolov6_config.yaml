@@ -1,0 +1,11 @@
+batch_size: 32
+data: C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml
+device: '0'
+epochs: 100
+eval_interval: 1
+img_size: 640
+model: yolov6n
+name: train
+output_dir: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_182021
+save_interval: 10
+workers: 8

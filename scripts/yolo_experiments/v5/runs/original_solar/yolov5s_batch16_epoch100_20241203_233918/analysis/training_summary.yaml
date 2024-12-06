@@ -1,0 +1,16 @@
+final_metrics:
+  mAP50: null
+  mAP50-95: 0.92027
+  precision: null
+  recall: null
+loss_metrics:
+  box_loss: null
+  cls_loss: null
+  obj_loss: null
+training_info:
+  epochs_completed: 100
+  final_learning_rate: null
+validation_metrics:
+  val_box_loss: null
+  val_cls_loss: null
+  val_obj_loss: null

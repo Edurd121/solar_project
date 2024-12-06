@@ -1,0 +1,281 @@
+2024-12-03 17:44:04,251 - INFO - Cloning YOLOv5 repository...
+2024-12-03 17:44:06,991 - INFO - YOLOv5 setup completed
+2024-12-03 17:44:06,992 - INFO - 
+Starting experiment:
+2024-12-03 17:44:06,992 - INFO - Dataset: original_solar
+2024-12-03 17:44:06,992 - INFO - Model: YOLOv5s
+2024-12-03 17:44:06,992 - INFO - Batch size: 16
+2024-12-03 17:44:06,993 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch100_20241203_174406
+2024-12-03 17:44:06,994 - INFO - Starting training with command: python train.py --img 640 --batch 16 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights yolov5s.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch100_20241203_174406 --name original_solar
+2024-12-03 18:15:54,683 - ERROR - Error during training: [Errno 2] No such file or directory: 'C:\\Users\\Eduar\\Documents\\masters\\cap5415\\solar_project\\scripts\\yolo_experiments\\v5\\runs\\original_solar_yolov5s_batch16_epoch100_20241203_174406\\results.csv'
+2024-12-03 18:15:54,683 - ERROR - Experiment failed: [Errno 2] No such file or directory: 'C:\\Users\\Eduar\\Documents\\masters\\cap5415\\solar_project\\scripts\\yolo_experiments\\v5\\runs\\original_solar_yolov5s_batch16_epoch100_20241203_174406\\results.csv'
+2024-12-03 18:15:54,683 - INFO - 
+Starting experiment:
+2024-12-03 18:15:54,683 - INFO - Dataset: combined_solar
+2024-12-03 18:15:54,683 - INFO - Model: YOLOv5s
+2024-12-03 18:15:54,684 - INFO - Batch size: 16
+2024-12-03 18:15:54,684 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar_yolov5s_batch16_epoch100_20241203_181554
+2024-12-03 18:15:54,685 - INFO - Starting training with command: python train.py --img 640 --batch 16 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\combined_solar_dataset\dataset_info.yaml --weights yolov5s.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar_yolov5s_batch16_epoch100_20241203_181554 --name combined_solar
+2024-12-03 18:23:22,783 - INFO - 
+Starting experiment:
+2024-12-03 18:23:22,783 - INFO - Dataset: original_solar
+2024-12-03 18:23:22,783 - INFO - Model: YOLOv5s
+2024-12-03 18:23:22,783 - INFO - Batch size: 16
+2024-12-03 18:23:22,784 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch1_20241203_182322
+2024-12-03 18:23:22,785 - INFO - Starting training with command: python train.py --img 640 --batch 16 --epochs 1 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights yolov5s.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch1_20241203_182322 --name original_solar
+2024-12-03 18:26:19,617 - ERROR - Analysis failed but training completed successfully: 'epoch'
+2024-12-03 18:26:19,617 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch1_20241203_182322
+2024-12-03 18:33:38,570 - INFO - 
+Starting experiment:
+2024-12-03 18:33:38,570 - INFO - Dataset: original_solar
+2024-12-03 18:33:38,570 - INFO - Model: YOLOv5s
+2024-12-03 18:33:38,570 - INFO - Batch size: 16
+2024-12-03 18:33:38,570 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch1_20241203_183338
+2024-12-03 18:33:38,572 - INFO - Starting training with command: python train.py --img 640 --batch 16 --epochs 1 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights yolov5s.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch1_20241203_183338 --name original_solar
+2024-12-03 18:36:34,911 - ERROR - Error plotting training curves: 'epoch'
+2024-12-03 18:36:35,069 - INFO - 
+Training Summary:
+2024-12-03 18:36:35,069 - ERROR - Analysis failed but training completed successfully: unsupported format string passed to NoneType.__format__
+2024-12-03 18:36:35,069 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch1_20241203_183338
+2024-12-03 18:40:55,219 - INFO - 
+Starting experiment:
+2024-12-03 18:40:55,220 - INFO - Dataset: original_solar
+2024-12-03 18:40:55,220 - INFO - Model: YOLOv5s
+2024-12-03 18:40:55,220 - INFO - Batch size: 16
+2024-12-03 18:40:55,220 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch1_20241203_184055
+2024-12-03 18:40:55,222 - INFO - Starting training with command: python train.py --img 640 --batch 16 --epochs 1 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights yolov5s.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch1_20241203_184055 --name original_solar
+2024-12-03 18:43:52,833 - INFO - 
+Training Summary:
+2024-12-03 18:43:52,833 - ERROR - Analysis failed but training completed successfully: 'mAP50'
+2024-12-03 18:43:52,833 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch1_20241203_184055
+2024-12-03 18:48:41,055 - INFO - 
+Starting experiment:
+2024-12-03 18:48:41,056 - INFO - Dataset: original_solar
+2024-12-03 18:48:41,056 - INFO - Model: YOLOv5s
+2024-12-03 18:48:41,056 - INFO - Batch size: 16
+2024-12-03 18:48:41,056 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch1_20241203_184841
+2024-12-03 18:48:41,058 - INFO - Starting training with command: python train.py --img 640 --batch 16 --epochs 1 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights yolov5s.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch1_20241203_184841 --name original_solar
+2024-12-03 18:51:51,476 - ERROR - Analysis failed but training completed successfully: 'epoch'
+2024-12-03 18:51:51,476 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch1_20241203_184841
+2024-12-03 18:55:19,473 - INFO - 
+Starting experiment:
+2024-12-03 18:55:19,473 - INFO - Dataset: original_solar
+2024-12-03 18:55:19,473 - INFO - Model: YOLOv5s
+2024-12-03 18:55:19,473 - INFO - Batch size: 16
+2024-12-03 18:55:19,474 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch1_20241203_185519
+2024-12-03 18:55:19,475 - INFO - Starting training with command: python train.py --img 640 --batch 16 --epochs 1 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights yolov5s.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch1_20241203_185519 --name original_solar
+2024-12-03 18:58:30,407 - INFO - Loaded results with columns: ['epoch', 'box_loss', 'obj_loss', 'cls_loss', 'precision', 'recall', 'mAP50', 'mAP50-95', 'val_box_loss', 'val_obj_loss', 'val_cls_loss', 'lr']
+2024-12-03 18:58:30,407 - INFO - Number of epochs: 1
+2024-12-03 18:58:30,407 - INFO - Skipping plots for single epoch training
+2024-12-03 18:58:30,655 - INFO - 
+Training Summary:
+2024-12-03 18:58:30,655 - ERROR - Analysis failed but training completed successfully: 'best_metrics'
+2024-12-03 18:58:30,655 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch1_20241203_185519
+2024-12-03 18:59:03,281 - INFO - 
+Starting experiment:
+2024-12-03 18:59:03,282 - INFO - Dataset: original_solar
+2024-12-03 18:59:03,282 - INFO - Model: YOLOv5s
+2024-12-03 18:59:03,282 - INFO - Batch size: 16
+2024-12-03 18:59:03,283 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch5_20241203_185903
+2024-12-03 18:59:03,284 - INFO - Starting training with command: python train.py --img 640 --batch 16 --epochs 5 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights yolov5s.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch5_20241203_185903 --name original_solar
+2024-12-03 19:03:26,024 - INFO - Loaded results with columns: ['epoch', 'box_loss', 'obj_loss', 'cls_loss', 'precision', 'recall', 'mAP50', 'mAP50-95', 'val_box_loss', 'val_obj_loss', 'val_cls_loss', 'lr']
+2024-12-03 19:03:26,024 - INFO - Number of epochs: 5
+2024-12-03 19:03:26,644 - INFO - 
+Training Summary:
+2024-12-03 19:03:26,645 - ERROR - Analysis failed but training completed successfully: 'best_metrics'
+2024-12-03 19:03:26,645 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch5_20241203_185903
+2024-12-03 19:05:10,278 - INFO - 
+Starting experiment:
+2024-12-03 19:05:10,279 - INFO - Dataset: original_solar
+2024-12-03 19:05:10,279 - INFO - Model: YOLOv5s
+2024-12-03 19:05:10,279 - INFO - Batch size: 16
+2024-12-03 19:05:10,280 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch2_20241203_190510
+2024-12-03 19:05:10,281 - INFO - Starting training with command: python train.py --img 640 --batch 16 --epochs 2 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights yolov5s.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch2_20241203_190510 --name original_solar
+2024-12-03 19:08:42,019 - INFO - Loaded results with columns: ['epoch', 'box_loss', 'obj_loss', 'cls_loss', 'precision', 'recall', 'mAP50', 'mAP50-95', 'val_box_loss', 'val_obj_loss', 'val_cls_loss', 'lr']
+2024-12-03 19:08:42,019 - INFO - Number of epochs: 2
+2024-12-03 19:08:42,615 - INFO - Created summary with metrics:
+2024-12-03 19:08:42,616 - INFO - final_metrics: {'mAP50': None, 'mAP50-95': 0.25117, 'precision': None, 'recall': None}
+2024-12-03 19:08:42,616 - INFO - loss_metrics: {'box_loss': None, 'obj_loss': None, 'cls_loss': None}
+2024-12-03 19:08:42,616 - INFO - training_info: {'epochs_completed': 2, 'final_learning_rate': None}
+2024-12-03 19:08:42,617 - INFO - validation_metrics: {'val_box_loss': None, 'val_obj_loss': None, 'val_cls_loss': None}
+2024-12-03 19:08:42,618 - INFO - 
+Training Summary:
+2024-12-03 19:08:42,619 - ERROR - Analysis failed but training completed successfully: 'best_metrics'
+2024-12-03 19:08:42,619 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5s_batch16_epoch2_20241203_190510
+2024-12-03 19:09:28,422 - INFO - 
+Starting experiment:
+2024-12-03 19:09:28,422 - INFO - Dataset: combined_solar
+2024-12-03 19:09:28,423 - INFO - Model: YOLOv5s
+2024-12-03 19:09:28,423 - INFO - Batch size: 16
+2024-12-03 19:09:28,423 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar_yolov5s_batch16_epoch2_20241203_190928
+2024-12-03 19:09:28,425 - INFO - Starting training with command: python train.py --img 640 --batch 16 --epochs 2 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\combined_solar_dataset\dataset_info.yaml --weights yolov5s.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar_yolov5s_batch16_epoch2_20241203_190928 --name combined_solar
+2024-12-03 19:13:22,602 - INFO - Loaded results with columns: ['epoch', 'box_loss', 'obj_loss', 'cls_loss', 'precision', 'recall', 'mAP50', 'mAP50-95', 'val_box_loss', 'val_obj_loss', 'val_cls_loss', 'lr']
+2024-12-03 19:13:22,602 - INFO - Number of epochs: 2
+2024-12-03 19:13:23,253 - INFO - Created summary with metrics:
+2024-12-03 19:13:23,253 - INFO - final_metrics: {'mAP50': None, 'mAP50-95': 0.24844, 'precision': None, 'recall': None}
+2024-12-03 19:13:23,254 - INFO - loss_metrics: {'box_loss': None, 'obj_loss': None, 'cls_loss': None}
+2024-12-03 19:13:23,254 - INFO - training_info: {'epochs_completed': 2, 'final_learning_rate': None}
+2024-12-03 19:13:23,254 - INFO - validation_metrics: {'val_box_loss': None, 'val_obj_loss': None, 'val_cls_loss': None}
+2024-12-03 19:13:23,255 - INFO - 
+Training Summary:
+2024-12-03 19:13:23,256 - ERROR - Analysis failed but training completed successfully: 'best_metrics'
+2024-12-03 19:13:23,256 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar_yolov5s_batch16_epoch2_20241203_190928
+2024-12-03 19:25:51,729 - INFO - 
+Starting experiment:
+2024-12-03 19:25:51,729 - INFO - Dataset: combined_solar
+2024-12-03 19:25:51,729 - INFO - Model: YOLOv5s
+2024-12-03 19:25:51,730 - INFO - Batch size: 16
+2024-12-03 19:25:51,730 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar_yolov5s_batch16_epoch100_20241203_192551
+2024-12-03 19:25:51,731 - INFO - Starting training with command: python train.py --img 640 --batch 16 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\combined_solar_dataset\dataset_info.yaml --weights yolov5s.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar_yolov5s_batch16_epoch100_20241203_192551 --name combined_solar
+2024-12-03 20:16:10,955 - INFO - Loaded results with columns: ['epoch', 'box_loss', 'obj_loss', 'cls_loss', 'precision', 'recall', 'mAP50', 'mAP50-95', 'val_box_loss', 'val_obj_loss', 'val_cls_loss', 'lr']
+2024-12-03 20:16:10,956 - INFO - Number of epochs: 100
+2024-12-03 20:16:11,600 - INFO - Created summary with metrics:
+2024-12-03 20:16:11,600 - INFO - final_metrics: {'mAP50': None, 'mAP50-95': 0.80102, 'precision': None, 'recall': None}
+2024-12-03 20:16:11,601 - INFO - loss_metrics: {'box_loss': None, 'obj_loss': None, 'cls_loss': None}
+2024-12-03 20:16:11,601 - INFO - training_info: {'epochs_completed': 100, 'final_learning_rate': None}
+2024-12-03 20:16:11,601 - INFO - validation_metrics: {'val_box_loss': None, 'val_obj_loss': None, 'val_cls_loss': None}
+2024-12-03 20:16:11,603 - INFO - 
+Training Summary:
+2024-12-03 20:16:11,603 - ERROR - Analysis failed but training completed successfully: 'best_metrics'
+2024-12-03 20:16:11,603 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar_yolov5s_batch16_epoch100_20241203_192551
+2024-12-03 23:10:55,249 - INFO - 
+Starting experiment:
+2024-12-03 23:10:55,249 - INFO - Dataset: original_solar
+2024-12-03 23:10:55,249 - INFO - Model: YOLOv5n
+2024-12-03 23:10:55,249 - INFO - Batch size: n
+2024-12-03 23:10:55,250 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5n_batchn_epoch100_20241203_231055
+2024-12-03 23:10:55,251 - INFO - Starting training with command: python train.py --img 640 --batch n --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights yolov5n.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5n_batchn_epoch100_20241203_231055 --name original_solar
+2024-12-03 23:11:03,452 - ERROR - Error loading results: list index out of range
+2024-12-03 23:11:03,452 - ERROR - Available files: []
+2024-12-03 23:11:03,453 - INFO - Skipping plots for single epoch training
+2024-12-03 23:11:03,731 - INFO - Created summary with metrics:
+2024-12-03 23:11:03,731 - INFO - final_metrics: {'mAP50': None, 'mAP50-95': None, 'precision': None, 'recall': None}
+2024-12-03 23:11:03,731 - INFO - loss_metrics: {'box_loss': None, 'obj_loss': None, 'cls_loss': None}
+2024-12-03 23:11:03,731 - INFO - training_info: {'epochs_completed': 1, 'final_learning_rate': None}
+2024-12-03 23:11:03,732 - INFO - validation_metrics: {'val_box_loss': None, 'val_obj_loss': None, 'val_cls_loss': None}
+2024-12-03 23:11:03,734 - INFO - 
+Training Summary:
+2024-12-03 23:11:03,734 - ERROR - Analysis failed but training completed successfully: 'best_metrics'
+2024-12-03 23:11:03,734 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5n_batchn_epoch100_20241203_231055
+2024-12-03 23:11:03,735 - INFO - 
+Starting experiment:
+2024-12-03 23:11:03,735 - INFO - Dataset: original_solar
+2024-12-03 23:11:03,735 - INFO - Model: YOLOv5n
+2024-12-03 23:11:03,735 - INFO - Batch size: m
+2024-12-03 23:11:03,736 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5n_batchm_epoch100_20241203_231103
+2024-12-03 23:11:03,737 - INFO - Starting training with command: python train.py --img 640 --batch m --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights yolov5n.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar_yolov5n_batchm_epoch100_20241203_231103 --name original_solar
+2024-12-03 23:16:05,646 - INFO - 
+Starting experiment:
+2024-12-03 23:16:05,647 - INFO - Dataset: original_solar
+2024-12-03 23:16:05,647 - INFO - Model: YOLOv5n
+2024-12-03 23:16:05,647 - INFO - Batch size: 32
+2024-12-03 23:16:05,648 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar\yolov5n_batch32_epoch100_20241203_231605
+2024-12-03 23:16:05,649 - INFO - Starting training with command: python train.py --img 640 --batch 32 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights yolov5n.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar\yolov5n_batch32_epoch100_20241203_231605 --name original_solar
+2024-12-03 23:39:17,960 - INFO - Loaded results with columns: ['epoch', 'box_loss', 'obj_loss', 'cls_loss', 'precision', 'recall', 'mAP50', 'mAP50-95', 'val_box_loss', 'val_obj_loss', 'val_cls_loss', 'lr']
+2024-12-03 23:39:17,960 - INFO - Number of epochs: 100
+2024-12-03 23:39:18,703 - INFO - Created summary with metrics:
+2024-12-03 23:39:18,704 - INFO - final_metrics: {'mAP50': None, 'mAP50-95': 0.91841, 'precision': None, 'recall': None}
+2024-12-03 23:39:18,704 - INFO - loss_metrics: {'box_loss': None, 'obj_loss': None, 'cls_loss': None}
+2024-12-03 23:39:18,704 - INFO - training_info: {'epochs_completed': 100, 'final_learning_rate': None}
+2024-12-03 23:39:18,704 - INFO - validation_metrics: {'val_box_loss': None, 'val_obj_loss': None, 'val_cls_loss': None}
+2024-12-03 23:39:18,706 - INFO - 
+Training Summary:
+2024-12-03 23:39:18,706 - ERROR - Analysis failed but training completed successfully: 'best_metrics'
+2024-12-03 23:39:18,706 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar\yolov5n_batch32_epoch100_20241203_231605
+2024-12-03 23:39:18,706 - INFO - 
+Starting experiment:
+2024-12-03 23:39:18,707 - INFO - Dataset: original_solar
+2024-12-03 23:39:18,707 - INFO - Model: YOLOv5s
+2024-12-03 23:39:18,707 - INFO - Batch size: 16
+2024-12-03 23:39:18,707 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar\yolov5s_batch16_epoch100_20241203_233918
+2024-12-03 23:39:18,709 - INFO - Starting training with command: python train.py --img 640 --batch 16 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights yolov5s.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar\yolov5s_batch16_epoch100_20241203_233918 --name original_solar
+2024-12-04 00:13:37,119 - INFO - Loaded results with columns: ['epoch', 'box_loss', 'obj_loss', 'cls_loss', 'precision', 'recall', 'mAP50', 'mAP50-95', 'val_box_loss', 'val_obj_loss', 'val_cls_loss', 'lr']
+2024-12-04 00:13:37,119 - INFO - Number of epochs: 100
+2024-12-04 00:13:37,725 - INFO - Created summary with metrics:
+2024-12-04 00:13:37,725 - INFO - final_metrics: {'mAP50': None, 'mAP50-95': 0.92027, 'precision': None, 'recall': None}
+2024-12-04 00:13:37,725 - INFO - loss_metrics: {'box_loss': None, 'obj_loss': None, 'cls_loss': None}
+2024-12-04 00:13:37,725 - INFO - training_info: {'epochs_completed': 100, 'final_learning_rate': None}
+2024-12-04 00:13:37,726 - INFO - validation_metrics: {'val_box_loss': None, 'val_obj_loss': None, 'val_cls_loss': None}
+2024-12-04 00:13:37,728 - INFO - 
+Training Summary:
+2024-12-04 00:13:37,728 - ERROR - Analysis failed but training completed successfully: 'best_metrics'
+2024-12-04 00:13:37,728 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar\yolov5s_batch16_epoch100_20241203_233918
+2024-12-04 00:13:37,728 - INFO - 
+Starting experiment:
+2024-12-04 00:13:37,728 - INFO - Dataset: original_solar
+2024-12-04 00:13:37,728 - INFO - Model: YOLOv5m
+2024-12-04 00:13:37,729 - INFO - Batch size: 16
+2024-12-04 00:13:37,729 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar\yolov5m_batch16_epoch100_20241204_001337
+2024-12-04 00:13:37,730 - INFO - Starting training with command: python train.py --img 640 --batch 16 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights yolov5m.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar\yolov5m_batch16_epoch100_20241204_001337 --name original_solar
+2024-12-04 00:32:23,392 - INFO - Loaded results with columns: ['epoch', 'box_loss', 'obj_loss', 'cls_loss', 'precision', 'recall', 'mAP50', 'mAP50-95', 'val_box_loss', 'val_obj_loss', 'val_cls_loss', 'lr']
+2024-12-04 00:32:23,395 - INFO - Number of epochs: 15
+2024-12-04 00:32:26,345 - INFO - Created summary with metrics:
+2024-12-04 00:32:26,346 - INFO - final_metrics: {'mAP50': None, 'mAP50-95': 0.82445, 'precision': None, 'recall': None}
+2024-12-04 00:32:26,346 - INFO - loss_metrics: {'box_loss': None, 'obj_loss': None, 'cls_loss': None}
+2024-12-04 00:32:26,346 - INFO - training_info: {'epochs_completed': 15, 'final_learning_rate': None}
+2024-12-04 00:32:26,347 - INFO - validation_metrics: {'val_box_loss': None, 'val_obj_loss': None, 'val_cls_loss': None}
+2024-12-04 00:32:26,349 - INFO - 
+Training Summary:
+2024-12-04 00:32:26,350 - ERROR - Analysis failed but training completed successfully: 'best_metrics'
+2024-12-04 00:32:26,350 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar\yolov5m_batch16_epoch100_20241204_001337
+2024-12-04 00:32:26,350 - INFO - 
+Starting experiment:
+2024-12-04 00:32:26,351 - INFO - Dataset: original_solar
+2024-12-04 00:32:26,351 - INFO - Model: YOLOv5l
+2024-12-04 00:32:26,351 - INFO - Batch size: 8
+2024-12-04 00:32:26,352 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar\yolov5l_batch8_epoch100_20241204_003226
+2024-12-04 00:32:26,354 - INFO - Starting training with command: python train.py --img 640 --batch 8 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights yolov5l.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar\yolov5l_batch8_epoch100_20241204_003226 --name original_solar
+2024-12-04 13:24:45,606 - INFO - Loaded results with columns: ['epoch', 'box_loss', 'obj_loss', 'cls_loss', 'precision', 'recall', 'mAP50', 'mAP50-95', 'val_box_loss', 'val_obj_loss', 'val_cls_loss', 'lr']
+2024-12-04 13:24:45,607 - INFO - Number of epochs: 100
+2024-12-04 13:24:46,573 - INFO - Created summary with metrics:
+2024-12-04 13:24:46,573 - INFO - final_metrics: {'mAP50': None, 'mAP50-95': 0.94617, 'precision': None, 'recall': None}
+2024-12-04 13:24:46,573 - INFO - loss_metrics: {'box_loss': None, 'obj_loss': None, 'cls_loss': None}
+2024-12-04 13:24:46,573 - INFO - training_info: {'epochs_completed': 100, 'final_learning_rate': None}
+2024-12-04 13:24:46,573 - INFO - validation_metrics: {'val_box_loss': None, 'val_obj_loss': None, 'val_cls_loss': None}
+2024-12-04 13:24:46,576 - INFO - 
+Training Summary:
+2024-12-04 13:24:46,576 - ERROR - Analysis failed but training completed successfully: 'best_metrics'
+2024-12-04 13:24:46,576 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\original_solar\yolov5l_batch8_epoch100_20241204_003226
+2024-12-04 13:24:46,576 - INFO - 
+Starting experiment:
+2024-12-04 13:24:46,577 - INFO - Dataset: combined_solar
+2024-12-04 13:24:46,577 - INFO - Model: YOLOv5n
+2024-12-04 13:24:46,577 - INFO - Batch size: 32
+2024-12-04 13:24:46,577 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar\yolov5n_batch32_epoch100_20241204_132446
+2024-12-04 13:24:46,579 - INFO - Starting training with command: python train.py --img 640 --batch 32 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\combined_solar_dataset\dataset_info.yaml --weights yolov5n.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar\yolov5n_batch32_epoch100_20241204_132446 --name combined_solar
+2024-12-04 13:56:48,616 - INFO - Loaded results with columns: ['epoch', 'box_loss', 'obj_loss', 'cls_loss', 'precision', 'recall', 'mAP50', 'mAP50-95', 'val_box_loss', 'val_obj_loss', 'val_cls_loss', 'lr']
+2024-12-04 13:56:48,616 - INFO - Number of epochs: 100
+2024-12-04 13:56:49,862 - INFO - Created summary with metrics:
+2024-12-04 13:56:49,862 - INFO - final_metrics: {'mAP50': None, 'mAP50-95': 0.79393, 'precision': None, 'recall': None}
+2024-12-04 13:56:49,862 - INFO - loss_metrics: {'box_loss': None, 'obj_loss': None, 'cls_loss': None}
+2024-12-04 13:56:49,863 - INFO - training_info: {'epochs_completed': 100, 'final_learning_rate': None}
+2024-12-04 13:56:49,863 - INFO - validation_metrics: {'val_box_loss': None, 'val_obj_loss': None, 'val_cls_loss': None}
+2024-12-04 13:56:49,864 - INFO - 
+Training Summary:
+2024-12-04 13:56:49,864 - ERROR - Analysis failed but training completed successfully: 'best_metrics'
+2024-12-04 13:56:49,865 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar\yolov5n_batch32_epoch100_20241204_132446
+2024-12-04 13:56:49,865 - INFO - 
+Starting experiment:
+2024-12-04 13:56:49,865 - INFO - Dataset: combined_solar
+2024-12-04 13:56:49,865 - INFO - Model: YOLOv5s
+2024-12-04 13:56:49,865 - INFO - Batch size: 16
+2024-12-04 13:56:49,866 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar\yolov5s_batch16_epoch100_20241204_135649
+2024-12-04 13:56:49,867 - INFO - Starting training with command: python train.py --img 640 --batch 16 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\combined_solar_dataset\dataset_info.yaml --weights yolov5s.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar\yolov5s_batch16_epoch100_20241204_135649 --name combined_solar
+2024-12-04 14:44:58,171 - INFO - Loaded results with columns: ['epoch', 'box_loss', 'obj_loss', 'cls_loss', 'precision', 'recall', 'mAP50', 'mAP50-95', 'val_box_loss', 'val_obj_loss', 'val_cls_loss', 'lr']
+2024-12-04 14:44:58,172 - INFO - Number of epochs: 100
+2024-12-04 14:44:59,052 - INFO - Created summary with metrics:
+2024-12-04 14:44:59,052 - INFO - final_metrics: {'mAP50': None, 'mAP50-95': 0.80102, 'precision': None, 'recall': None}
+2024-12-04 14:44:59,052 - INFO - loss_metrics: {'box_loss': None, 'obj_loss': None, 'cls_loss': None}
+2024-12-04 14:44:59,052 - INFO - training_info: {'epochs_completed': 100, 'final_learning_rate': None}
+2024-12-04 14:44:59,052 - INFO - validation_metrics: {'val_box_loss': None, 'val_obj_loss': None, 'val_cls_loss': None}
+2024-12-04 14:44:59,054 - INFO - 
+Training Summary:
+2024-12-04 14:44:59,055 - ERROR - Analysis failed but training completed successfully: 'best_metrics'
+2024-12-04 14:44:59,055 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar\yolov5s_batch16_epoch100_20241204_135649
+2024-12-04 14:44:59,055 - INFO - 
+Starting experiment:
+2024-12-04 14:44:59,055 - INFO - Dataset: combined_solar
+2024-12-04 14:44:59,056 - INFO - Model: YOLOv5m
+2024-12-04 14:44:59,056 - INFO - Batch size: 16
+2024-12-04 14:44:59,056 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar\yolov5m_batch16_epoch100_20241204_144459
+2024-12-04 14:44:59,058 - INFO - Starting training with command: python train.py --img 640 --batch 16 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\combined_solar_dataset\dataset_info.yaml --weights yolov5m.pt --project C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v5\runs\combined_solar\yolov5m_batch16_epoch100_20241204_144459 --name combined_solar

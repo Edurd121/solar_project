@@ -1,0 +1,9 @@
+data_path: C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info_v7.yaml
+experiment_info:
+  batch_size: 16
+  dataset: original_solar
+  date: '2024-12-04 18:51:54'
+  epochs: 100
+  img_size: 640
+  model: yolov7s
+run_directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v7\runs\original_solar\yolov7s_batch16_epoch100_20241204_185154

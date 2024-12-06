@@ -1,0 +1,191 @@
+2024-12-04 18:03:05,705 - INFO - Cloning YOLOv6 repository...
+2024-12-04 18:03:28,191 - INFO - YOLOv6 setup completed
+2024-12-04 18:03:28,192 - INFO - 
+Starting experiment:
+2024-12-04 18:03:28,192 - INFO - Dataset: original_solar
+2024-12-04 18:03:28,192 - INFO - Model: YOLOv6n
+2024-12-04 18:03:28,192 - INFO - Batch size: 32
+2024-12-04 18:03:28,193 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_180328
+2024-12-04 18:03:28,194 - INFO - Starting training with command: python tools/train.py --batch-size 32 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights weights/yolov6n.pt --output-dir C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_180328
+2024-12-04 18:03:34,031 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_180328
+2024-12-04 18:03:34,032 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_180328
+2024-12-04 18:03:34,032 - INFO - 
+Starting experiment:
+2024-12-04 18:03:34,032 - INFO - Dataset: original_solar
+2024-12-04 18:03:34,032 - INFO - Model: YOLOv6s
+2024-12-04 18:03:34,032 - INFO - Batch size: 16
+2024-12-04 18:03:34,033 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6s_batch16_epoch100_20241204_180334
+2024-12-04 18:03:34,034 - INFO - Starting training with command: python tools/train.py --batch-size 16 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --weights weights/yolov6s.pt --output-dir C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6s_batch16_epoch100_20241204_180334
+2024-12-04 18:03:38,953 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6s_batch16_epoch100_20241204_180334
+2024-12-04 18:03:38,953 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6s_batch16_epoch100_20241204_180334
+2024-12-04 18:03:38,953 - INFO - 
+Starting experiment:
+2024-12-04 18:03:38,954 - INFO - Dataset: combined_solar
+2024-12-04 18:03:38,954 - INFO - Model: YOLOv6n
+2024-12-04 18:03:38,954 - INFO - Batch size: 32
+2024-12-04 18:03:38,955 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6n_batch32_epoch100_20241204_180338
+2024-12-04 18:03:38,956 - INFO - Starting training with command: python tools/train.py --batch-size 32 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\combined_solar_dataset\dataset_info.yaml --weights weights/yolov6n.pt --output-dir C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6n_batch32_epoch100_20241204_180338
+2024-12-04 18:03:43,174 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6n_batch32_epoch100_20241204_180338
+2024-12-04 18:03:43,174 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6n_batch32_epoch100_20241204_180338
+2024-12-04 18:03:43,174 - INFO - 
+Starting experiment:
+2024-12-04 18:03:43,175 - INFO - Dataset: combined_solar
+2024-12-04 18:03:43,175 - INFO - Model: YOLOv6s
+2024-12-04 18:03:43,175 - INFO - Batch size: 16
+2024-12-04 18:03:43,175 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6s_batch16_epoch100_20241204_180343
+2024-12-04 18:03:43,177 - INFO - Starting training with command: python tools/train.py --batch-size 16 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\combined_solar_dataset\dataset_info.yaml --weights weights/yolov6s.pt --output-dir C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6s_batch16_epoch100_20241204_180343
+2024-12-04 18:09:12,097 - INFO - 
+Starting experiment:
+2024-12-04 18:09:12,098 - INFO - Dataset: original_solar
+2024-12-04 18:09:12,098 - INFO - Model: YOLOv6n
+2024-12-04 18:09:12,098 - INFO - Batch size: 32
+2024-12-04 18:09:12,098 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_180912
+2024-12-04 18:09:12,099 - INFO - Downloading yolov6n.pt...
+2024-12-04 18:09:12,105 - ERROR - Error during training: [WinError 2] The system cannot find the file specified
+2024-12-04 18:09:12,105 - ERROR - Experiment failed: [WinError 2] The system cannot find the file specified
+2024-12-04 18:09:12,105 - INFO - 
+Starting experiment:
+2024-12-04 18:09:12,105 - INFO - Dataset: original_solar
+2024-12-04 18:09:12,105 - INFO - Model: YOLOv6s
+2024-12-04 18:09:12,105 - INFO - Batch size: 16
+2024-12-04 18:09:12,106 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6s_batch16_epoch100_20241204_180912
+2024-12-04 18:09:12,106 - INFO - Downloading yolov6s.pt...
+2024-12-04 18:09:12,112 - ERROR - Error during training: [WinError 2] The system cannot find the file specified
+2024-12-04 18:09:12,112 - ERROR - Experiment failed: [WinError 2] The system cannot find the file specified
+2024-12-04 18:09:12,112 - INFO - 
+Starting experiment:
+2024-12-04 18:09:12,113 - INFO - Dataset: combined_solar
+2024-12-04 18:09:12,113 - INFO - Model: YOLOv6n
+2024-12-04 18:09:12,113 - INFO - Batch size: 32
+2024-12-04 18:09:12,113 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6n_batch32_epoch100_20241204_180912
+2024-12-04 18:09:12,114 - INFO - Downloading yolov6n.pt...
+2024-12-04 18:09:12,120 - ERROR - Error during training: [WinError 2] The system cannot find the file specified
+2024-12-04 18:09:12,120 - ERROR - Experiment failed: [WinError 2] The system cannot find the file specified
+2024-12-04 18:09:12,120 - INFO - 
+Starting experiment:
+2024-12-04 18:09:12,120 - INFO - Dataset: combined_solar
+2024-12-04 18:09:12,120 - INFO - Model: YOLOv6s
+2024-12-04 18:09:12,121 - INFO - Batch size: 16
+2024-12-04 18:09:12,121 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6s_batch16_epoch100_20241204_180912
+2024-12-04 18:09:12,122 - INFO - Downloading yolov6s.pt...
+2024-12-04 18:09:12,128 - ERROR - Error during training: [WinError 2] The system cannot find the file specified
+2024-12-04 18:09:12,129 - ERROR - Experiment failed: [WinError 2] The system cannot find the file specified
+2024-12-04 18:10:00,516 - INFO - 
+Starting experiment:
+2024-12-04 18:10:00,516 - INFO - Dataset: original_solar
+2024-12-04 18:10:00,516 - INFO - Model: YOLOv6n
+2024-12-04 18:10:00,517 - INFO - Batch size: 32
+2024-12-04 18:10:00,518 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_181000
+2024-12-04 18:10:00,518 - INFO - Downloading yolov6n.pt...
+2024-12-04 18:10:00,526 - ERROR - Error during training: [WinError 2] The system cannot find the file specified
+2024-12-04 18:10:00,526 - ERROR - Experiment failed: [WinError 2] The system cannot find the file specified
+2024-12-04 18:10:00,526 - INFO - 
+Starting experiment:
+2024-12-04 18:10:00,527 - INFO - Dataset: original_solar
+2024-12-04 18:10:00,527 - INFO - Model: YOLOv6s
+2024-12-04 18:10:00,527 - INFO - Batch size: 16
+2024-12-04 18:10:00,528 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6s_batch16_epoch100_20241204_181000
+2024-12-04 18:10:00,528 - INFO - Downloading yolov6s.pt...
+2024-12-04 18:10:00,535 - ERROR - Error during training: [WinError 2] The system cannot find the file specified
+2024-12-04 18:10:00,535 - ERROR - Experiment failed: [WinError 2] The system cannot find the file specified
+2024-12-04 18:10:00,535 - INFO - 
+Starting experiment:
+2024-12-04 18:10:00,536 - INFO - Dataset: combined_solar
+2024-12-04 18:10:00,536 - INFO - Model: YOLOv6n
+2024-12-04 18:10:00,536 - INFO - Batch size: 32
+2024-12-04 18:10:00,537 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6n_batch32_epoch100_20241204_181000
+2024-12-04 18:10:00,537 - INFO - Downloading yolov6n.pt...
+2024-12-04 18:10:00,544 - ERROR - Error during training: [WinError 2] The system cannot find the file specified
+2024-12-04 18:10:00,544 - ERROR - Experiment failed: [WinError 2] The system cannot find the file specified
+2024-12-04 18:10:00,544 - INFO - 
+Starting experiment:
+2024-12-04 18:10:00,545 - INFO - Dataset: combined_solar
+2024-12-04 18:10:00,545 - INFO - Model: YOLOv6s
+2024-12-04 18:10:00,545 - INFO - Batch size: 16
+2024-12-04 18:10:00,546 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6s_batch16_epoch100_20241204_181000
+2024-12-04 18:10:00,546 - INFO - Downloading yolov6s.pt...
+2024-12-04 18:10:00,554 - ERROR - Error during training: [WinError 2] The system cannot find the file specified
+2024-12-04 18:10:00,554 - ERROR - Experiment failed: [WinError 2] The system cannot find the file specified
+2024-12-04 18:13:56,585 - INFO - 
+Starting experiment:
+2024-12-04 18:13:56,586 - INFO - Dataset: original_solar
+2024-12-04 18:13:56,586 - INFO - Model: YOLOv6n
+2024-12-04 18:13:56,586 - INFO - Batch size: 32
+2024-12-04 18:13:56,586 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_181356
+2024-12-04 18:13:56,625 - ERROR - Error during training: 'YOLOv6Trainer' object has no attribute 'create_yolov6_config'
+2024-12-04 18:13:56,625 - ERROR - Experiment failed: 'YOLOv6Trainer' object has no attribute 'create_yolov6_config'
+2024-12-04 18:13:56,625 - INFO - 
+Starting experiment:
+2024-12-04 18:13:56,626 - INFO - Dataset: original_solar
+2024-12-04 18:13:56,626 - INFO - Model: YOLOv6s
+2024-12-04 18:13:56,626 - INFO - Batch size: 16
+2024-12-04 18:13:56,627 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6s_batch16_epoch100_20241204_181356
+2024-12-04 18:13:56,627 - ERROR - Error during training: 'YOLOv6Trainer' object has no attribute 'create_yolov6_config'
+2024-12-04 18:13:56,627 - ERROR - Experiment failed: 'YOLOv6Trainer' object has no attribute 'create_yolov6_config'
+2024-12-04 18:13:56,627 - INFO - 
+Starting experiment:
+2024-12-04 18:13:56,627 - INFO - Dataset: combined_solar
+2024-12-04 18:13:56,628 - INFO - Model: YOLOv6n
+2024-12-04 18:13:56,628 - INFO - Batch size: 32
+2024-12-04 18:13:56,628 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6n_batch32_epoch100_20241204_181356
+2024-12-04 18:13:56,629 - ERROR - Error during training: 'YOLOv6Trainer' object has no attribute 'create_yolov6_config'
+2024-12-04 18:13:56,629 - ERROR - Experiment failed: 'YOLOv6Trainer' object has no attribute 'create_yolov6_config'
+2024-12-04 18:13:56,629 - INFO - 
+Starting experiment:
+2024-12-04 18:13:56,629 - INFO - Dataset: combined_solar
+2024-12-04 18:13:56,629 - INFO - Model: YOLOv6s
+2024-12-04 18:13:56,629 - INFO - Batch size: 16
+2024-12-04 18:13:56,630 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6s_batch16_epoch100_20241204_181356
+2024-12-04 18:13:56,630 - ERROR - Error during training: 'YOLOv6Trainer' object has no attribute 'create_yolov6_config'
+2024-12-04 18:13:56,630 - ERROR - Experiment failed: 'YOLOv6Trainer' object has no attribute 'create_yolov6_config'
+2024-12-04 18:17:18,862 - INFO - 
+Starting experiment:
+2024-12-04 18:17:18,863 - INFO - Dataset: original_solar
+2024-12-04 18:17:18,863 - INFO - Model: YOLOv6n
+2024-12-04 18:17:18,863 - INFO - Batch size: 32
+2024-12-04 18:17:18,863 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_181718
+2024-12-04 18:17:18,890 - INFO - Starting training with command: python tools/train.py --batch-size 32 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --img-size 640 --device 0 --weights C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\yolov6\weights\yolov6n.pt --conf C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_181718\yolov6_config.yaml
+2024-12-04 18:17:23,216 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_181718
+2024-12-04 18:17:23,216 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_181718
+2024-12-04 18:17:23,216 - INFO - 
+Starting experiment:
+2024-12-04 18:17:23,216 - INFO - Dataset: original_solar
+2024-12-04 18:17:23,216 - INFO - Model: YOLOv6s
+2024-12-04 18:17:23,216 - INFO - Batch size: 16
+2024-12-04 18:17:23,217 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6s_batch16_epoch100_20241204_181723
+2024-12-04 18:17:23,219 - INFO - Starting training with command: python tools/train.py --batch-size 16 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --img-size 640 --device 0 --weights C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\yolov6\weights\yolov6s.pt --conf C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6s_batch16_epoch100_20241204_181723\yolov6_config.yaml
+2024-12-04 18:17:27,258 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6s_batch16_epoch100_20241204_181723
+2024-12-04 18:17:27,258 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6s_batch16_epoch100_20241204_181723
+2024-12-04 18:17:27,258 - INFO - 
+Starting experiment:
+2024-12-04 18:17:27,259 - INFO - Dataset: combined_solar
+2024-12-04 18:17:27,259 - INFO - Model: YOLOv6n
+2024-12-04 18:17:27,259 - INFO - Batch size: 32
+2024-12-04 18:17:27,259 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6n_batch32_epoch100_20241204_181727
+2024-12-04 18:17:27,261 - INFO - Starting training with command: python tools/train.py --batch-size 32 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\combined_solar_dataset\dataset_info.yaml --img-size 640 --device 0 --weights C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\yolov6\weights\yolov6n.pt --conf C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6n_batch32_epoch100_20241204_181727\yolov6_config.yaml
+2024-12-04 18:17:31,313 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6n_batch32_epoch100_20241204_181727
+2024-12-04 18:17:31,314 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6n_batch32_epoch100_20241204_181727
+2024-12-04 18:17:31,314 - INFO - 
+Starting experiment:
+2024-12-04 18:17:31,314 - INFO - Dataset: combined_solar
+2024-12-04 18:17:31,314 - INFO - Model: YOLOv6s
+2024-12-04 18:17:31,314 - INFO - Batch size: 16
+2024-12-04 18:17:31,315 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6s_batch16_epoch100_20241204_181731
+2024-12-04 18:17:31,317 - INFO - Starting training with command: python tools/train.py --batch-size 16 --epochs 100 --data C:\Users\Eduar\Documents\masters\cap5415\datasets\combined_solar_dataset\dataset_info.yaml --img-size 640 --device 0 --weights C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\yolov6\weights\yolov6s.pt --conf C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6s_batch16_epoch100_20241204_181731\yolov6_config.yaml
+2024-12-04 18:17:35,434 - INFO - Training completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6s_batch16_epoch100_20241204_181731
+2024-12-04 18:17:35,435 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\combined_solar\yolov6s_batch16_epoch100_20241204_181731
+2024-12-04 18:20:21,808 - INFO - 
+Starting experiment:
+2024-12-04 18:20:21,808 - INFO - Dataset: original_solar
+2024-12-04 18:20:21,808 - INFO - Model: YOLOv6n
+2024-12-04 18:20:21,808 - INFO - Batch size: 32
+2024-12-04 18:20:21,809 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_182021
+2024-12-04 18:20:21,833 - INFO - Starting training with command: python tools/train.py --data-path C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --conf-file C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_182021\yolov6_config.yaml --img-size 640 --batch-size 32 --epochs 100 --device 0 --output-dir C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_182021
+2024-12-04 18:20:25,982 - INFO - Experiment completed. Results saved in: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6n_batch32_epoch100_20241204_182021
+2024-12-04 18:20:25,982 - INFO - 
+Starting experiment:
+2024-12-04 18:20:25,982 - INFO - Dataset: original_solar
+2024-12-04 18:20:25,983 - INFO - Model: YOLOv6s
+2024-12-04 18:20:25,983 - INFO - Batch size: 16
+2024-12-04 18:20:25,983 - INFO - Created run directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6s_batch16_epoch100_20241204_182025
+2024-12-04 18:20:25,985 - INFO - Starting training with command: python tools/train.py --data-path C:\Users\Eduar\Documents\masters\cap5415\datasets\solar_panel_data\processed\dataset_info.yaml --conf-file C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6s_batch16_epoch100_20241204_182025\yolov6_config.yaml --img-size 640 --batch-size 16 --epochs 100 --device 0 --output-dir C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v6\runs\original_solar\yolov6s_batch16_epoch100_20241204_182025

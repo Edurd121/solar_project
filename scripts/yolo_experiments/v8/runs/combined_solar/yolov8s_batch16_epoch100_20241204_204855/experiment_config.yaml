@@ -1,0 +1,9 @@
+data_path: C:\Users\Eduar\Documents\masters\cap5415\datasets\combined_solar_dataset\dataset_info.yaml
+experiment_info:
+  batch_size: 16
+  dataset: combined_solar
+  date: '2024-12-04 20:48:55'
+  epochs: 100
+  img_size: 640
+  model: yolov8s
+run_directory: C:\Users\Eduar\Documents\masters\cap5415\solar_project\scripts\yolo_experiments\v8\runs\combined_solar\yolov8s_batch16_epoch100_20241204_204855
